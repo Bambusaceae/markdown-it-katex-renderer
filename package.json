@@ -1,0 +1,24 @@
+{
+  "name": "markdown-it-katex-renderer",
+  "version": "1.0.0",
+  "description": "A KaTeX renderer for markdown-it.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "katex",
+    "latex"
+  ],
+  "scripts": {
+    "test": "node ./demo/index.js",
+    "prep": "cp package.json ./src/package.json"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/bambusaceae/markdown-it-katex-renderer",
+  "author": "bambusaceae",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.12.0",
+    "markdown-it": "^12.0.0"
+  }
+}
